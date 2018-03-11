@@ -4,6 +4,7 @@
   "description": "Provides function for performing a shuffle in which each element has a weighted bias.",
   "license": "MIT",
   "scripts": {
+    "performance": "ts-node performance/index.ts",
     "test": "mocha test.ts --require ts-node/register src/**/*.spec.ts"
   },
   "devDependencies": {
@@ -11,6 +12,7 @@
     "@types/mocha": "^2.2.48",
     "@types/sinon": "^4.3.0",
     "chai": "^4.1.2",
+    "deck": "0.0.4",
     "mocha": "^5.0.4",
     "sinon": "^4.4.2",
     "ts-node": "^5.0.1",
